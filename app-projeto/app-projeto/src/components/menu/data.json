@@ -1,0 +1,126 @@
+[
+    {
+        "page": "General",
+        "icon": "bi-gear-fill",
+        "sub_menu": [
+            {
+                "page": "Home",
+                "icon": "bi-house-fill",
+                "path": "/"
+            },
+            {
+                "page": "About",
+                "icon": "bi-info-circle-fill",
+                "path": "/about"
+            },
+            {
+                "page": "Contact",
+                "icon": "bi-phone-fill",
+                "sub_menu": [
+                    {
+                        "page": "Facebook",
+                        "icon": "bi-facebook"
+                    },
+                    {
+                        "page": "Twitter",
+                        "icon": "bi-twitter"
+                    },
+                    {
+                        "page": "Instagram",
+                        "icon": "bi-instagram"
+                    }
+                ]
+            },
+            {
+                "page": "FAQ",
+                "icon": "bi-question-circle-fill"
+            }
+        ]
+    },
+    {
+        "page": "Account",
+        "icon": "bi-info-circle-fill",
+        "sub_menu": [
+            {
+                "page": "Login",
+                "path": "/login"
+            },
+            {
+                "page": "Register",
+                "path": "/register"
+            },
+            {
+                "page": "Forgot Password",
+                "path": "/forgot-password"
+            },
+            {
+                "page": "Reset Password",
+                "path": "/reset-password"
+            }
+        ]
+    },
+    {
+        "page": "Profile",
+        "icon": "bi-person-fill",
+        "sub_menu": [
+            {
+                "page": "Profile",
+                "path": "/profile"
+            },
+            {
+                "page": "Settings",
+                "sub_menu": [
+                    {
+                        "page": "Account",
+                        "path": "/settings/account"
+                    },
+                    {
+                        "page": "Billing",
+                        "sub_menu": [
+                            {
+                                "page": "Payment",
+                                "path": "/settings/billing/payment"
+                            },
+                            {
+                                "page": "Subscription",
+                                "path": "/settings/billing/subscription"
+                            }
+                        ]
+                    },
+                    {
+                        "page": "Notifications",
+                        "path": "/settings/notifications"
+                    }
+                ]
+            },
+            {
+                "page": "Logout",
+                "path": "/logout"
+            }
+        ]
+    },
+    {
+        "page": "Advance",
+        "icon": "bi-view-list",
+        "sub_menu": [
+            {
+                "page": "Search",
+                "path": "/search"
+            },
+            {
+                "page": "History",
+                "path": "/history"   
+            }
+        ]
+    },
+    {
+        "page": "Support",
+        "icon": "bi-question-circle-fill",
+        "path": "/support"
+    },
+    {
+        "page": "Report Bug",
+        "icon": "bi-bug",
+        "path": "/report-bug"
+    }
+]
